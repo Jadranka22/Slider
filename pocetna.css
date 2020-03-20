@@ -47,6 +47,16 @@ article ul li img {
   box-sizing: border-box;
 }
 
+img:hover{
+  width: 260px;
+  height: 260px;
+  margin: -31px;
+  z-index: 100;
+  filter: brightness(100%);
+  -webkit-filter:brightness(100%);
+  -moz-filter:brightness(100%);
+}
+
 article .drugiRed {
   margin-right: 150px;
 }
